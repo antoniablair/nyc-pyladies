@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+body{
+	background-image:url("");
+	background-color:#ffffff;
+	color:#333;
+}
+
+a, a:visited {
+	color: rgb(243, 128, 148);
+	text-decoration: none;
+}
+
+#top{
+	height:25px;
+}
+
+/* --- images ------------- */
+#logo{
+	margin-top:15%;
+	text-decoration:none;
+}
+
+#logoimage{
+	width:27px;
+	padding-right:10px;
+	float:left;
+}
+
+#logotitle{
+	/*float:left;*/
+	font-family:'Josefin Sans', Helvetica, sans-serif;
+	font-weight: bold;
+	font-size:305%;
+}
+
+#logotitle a{
+	color:#2d2d2d;
+	text-decoration:none;
+}
+
+.pyladies-nyc {
+  background: url('images/pyladiesnyc.jpeg');
+	height: 175px;
+	width: 187px;
+	background-size: cover;
+	display: block;
+	margin: 25px auto 25px auto;
+}
+
+/* --- navbar ------------- */
+nav.navbar {
+    background-color: #2B2D42;
+	color: #8D99AE;
+}
+
+.nav-item:hover {
+	cursor: pointer;
+}
+
+.pyladies-logo {
+	width:100px;
+	margin-left:15px;
+}
+
+h1,h2,h3,h4 {
+	font-size:36px;
+}
+
+.section {
+	padding-top:25px;
+	padding-bottom:25px;
+}
+
+.section.first {
+	padding-top:50px;
+}
+
+#upcomingMeetupsList ul li {
+	margin-bottom: 20px;
+}
+
+.meetup_group_icon {
+	float:left;
+	margin-right: 20px;
+}
+
+/* --- footer ------------- */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  background-color: #f13a59;
+  color: white;
+  text-align: center;
+}
