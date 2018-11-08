@@ -7,14 +7,25 @@
 }
 
 body{
-	background-image:url("");
 	background-color:#ffffff;
 	color:#333;
+	font-size: 18px;
+	font-family: 'Lato';
 }
 
 a, a:visited {
 	color: rgb(243, 128, 148);
 	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 32px;
+	margin: 50px 50px;
+}
+
+.row {
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
 #top{
@@ -25,6 +36,48 @@ a, a:visited {
 #logo{
 	margin-top:15%;
 	text-decoration:none;
+}
+
+/* text logo, rename */
+.pyladies-logo {
+	height: 63px;
+	width: 133px;
+}
+
+@media (max-width: 400px) {
+	.pyladies-logo {
+		display: none;
+	}
+}
+
+#floating-logo {
+	position: absolute;
+	display: block;
+	width: 275px;
+	height: 125px;
+	top: 25%;
+	left: 50%;
+	margin-left: -136px;
+}
+
+@media (min-width: 500px) {
+	#floating-logo  {
+		width: 400px;
+		height: 170px;
+		top: 25%;
+		left: 50%;
+		margin-left: -200px;
+	}
+}
+
+@media (min-width: 750px) {
+	#floating-logo  {
+		width: 500px;
+		height: 250px;
+		top: 30%;
+		left: 50%;
+		margin-left: -250px;
+	}
 }
 
 #logoimage{
@@ -45,13 +98,12 @@ a, a:visited {
 	text-decoration:none;
 }
 
-.pyladies-nyc {
-  background: url('images/pyladiesnyc.jpeg');
-	height: 175px;
-	width: 187px;
-	background-size: cover;
+.geek {
 	display: block;
-	margin: 25px auto 25px auto;
+	width: 100%;
+	max-width: 300px;
+	margin-top: -15px;
+	padding: 0px 15px 0px 15px;
 }
 
 /* --- navbar ------------- */
@@ -64,11 +116,6 @@ nav.navbar {
 	cursor: pointer;
 }
 
-.pyladies-logo {
-	width:100px;
-	margin-left:15px;
-}
-
 h1,h2,h3,h4 {
 	font-size:36px;
 }
@@ -78,8 +125,22 @@ h1,h2,h3,h4 {
 	padding-bottom:25px;
 }
 
-.section.first {
-	padding-top:50px;
+.skyline {
+	background-image: url('images/skyline.jpg');
+	height: 450px;
+	background-size:cover;
+}
+
+@media (min-width: 750px) {
+	.skyline {
+		height: 550px;
+	}
+}
+
+@media (min-width: 1824px) {
+	.skyline {
+		height: 750px;
+	}
 }
 
 #upcomingMeetupsList ul li {
