@@ -8,10 +8,15 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400i|Rubik" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Anton|Signika:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#"><img src="images/logored.png" class="pyladies-logo" /></a>
+            <a class="navbar-brand" href="#pyladies"><img src="images/logo.png" class="pyladies-logo" />
+                <div class="small-geek"></div>
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -21,53 +26,63 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#events">Events</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#resources">Resources</a>
-                    </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="#contact">Connect</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <img src="images/logored.png" id="floating-logo">
+        <img src="images/logo.png" id="floating-logo">
         <div class="skyline"></div>
         <div class="container-fluid">
-            <div class="row">
+            <div class="row" id="pyladies">
                 <h1 class="col-sm-12 text-center">NYC PyLadies</h1>
-                <div class="col-sm-12 col-md-3">
-                    <img src="images/pyladiesnyc.jpeg" class="geek">
+                <img src="./images/line.svg" class="hr-squiggle col-sm-12">
+                <div class="col-sm-12 col-md-3 offset-md-1">
+                    <img src="images/pyladiesnyc.jpeg" class="geek" alt="pyladies-geek">
                 </div>
-                <div class="col-sm-12 col-md-9">
+                <div class="col-sm-12 col-md-7">
                     <p>
                         We're the NYC chapter of PyLadies, an international community of women and non-binary
                         people in tech.
                     </p>
-                    <p> We host monthly events, talks, and study groups where you can meet other Python programmers and
+                    <p>
+                        We host monthly <a href="https://www.meetup.com/NYC-PyLadies/events/256036522/" target="_blank">events</a>,
+                        talks, and study groups where you can meet other Python programmers and
                         learn more about programming, data science, web development, and more.
-                        All skill levels welcome!
                     </p>
                 </div>
-                <div class="col-sm-12 section text-center">
-                    <h2 class="text-center" id="events">Events</h2>
+            </div>
+            <div class="row pink" id="events">
+                <h2 class="col-sm-12 text-center">Events</h2>
+                <img src="./images/line.svg" class="hr-squiggle col-sm-12" />
+                <img src="images/pygotham.jpg" class="pygotham col-sm-12 col-md-4 offset-md-4" alt="pygotham">
+                <div class="col-sm-12 col-md-10 offset-md-1  text-center">
                     <p>
-                        RSVP for our events on our Meetup page. You can also follow us on Twitter.
+                        Join our <a href="https://www.meetup.com/NYC-PyLadies/events/256036522/" target="_blank">Meetup group</a> to
+                        hear about our free events in the NYC metro area. All skill levels are
+                        welcome!
                     </p>
-                </div>
-                <div class="col-sm-12 section text-center">
-                    <h3 class="text-center" id="resources">Resources</h3>
                     <p>
-                        Resources.
+                        Interested in hosting us, giving a talk, or leading a workshop?
+                        We'd love to <a href="#contact">hear from you!</a>
                     </p>
                 </div>
-                <div class="col-sm-12 section text-center" id="about">
+            </div>
+            <div class="row" id="about">
+                <div class="col-sm-12 col-md-10 offset-md-1 section text-center" id="about">
                     <h4>About Us</h4>
+                    <img src="./images/line.svg" class="hr-squiggle">
                     <p>
                         PyLadies is an international mentorship group with a focus on helping more women become active
-                        participants and leaders in the Python open-source community. Our mission is to promote, educate and
+                        participants and leaders in the Python open-source community.
+                    </p>
+                    <p>
+                        Our mission is to promote, educate and
                         advance a diverse Python community through outreach, education, conferences, events and social
                         gatherings.
                     </p>
@@ -75,19 +90,34 @@
                         To learn more, visit the <a href="https://www.pyladies.com/">PyLadies website</a>.
                     </p>
                 </div>
+            </div>
+            <div class="row pink">
                 <div class="col-sm-12 section text-center" id="contact">
-                    <h4>Contact</h4>
+                    <h4>Connect</h4>
+                    <img src="./images/line.svg" class="hr-squiggle">
                     <p>
-                        If you would like to get involved or give a talk or workshop, contact us at <a href="mailto:nyc@pyladies.com">nyc@pyladies.com</a>
+                        Follow us on <a href="https://twitter.com/NYCPyLadies">Twitter</a>
+                        or join our <a href="https://www.meetup.com/NYC-PyLadies/events/256036522/" target="_blank">Meetup group</a> to get our announcements and find out about
+                        upcoming events.
                     </p>
                     <p>
-                        Interested in hosting an event? Fill out our Google form and we will get in touch!
+                        If you would like to give a tech talk, demo, or workshop, contact us at <a href="mailto:nyc@pyladies.com">nyc@pyladies.com</a>.
+                    </p>
+                    <p>
+                        Interested in hosting an event at your workplace? Fill out our <a href="https://docs.google.com/forms/d/1EMD1fSACPl9LixfSosqKmBj1vhTMQ51AWrSVGxOXdDc/edit?usp=drive_web">
+                        Google form </a>and someone from NYC PyLadies will
+                        reach out.
+                    </p>
+                    <p>
+                        We look forward to speaking with you!
                     </p>
                 </div>
             </div>
         </div>
-        <div class="footer"></div>
+        <div class="footer">
+            ✨ NYC PyLadies 2018 ✨
+        </div>
     </body>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </html>

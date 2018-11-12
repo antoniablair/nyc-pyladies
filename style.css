@@ -9,19 +9,35 @@
 body{
 	background-color:#ffffff;
 	color:#333;
-	font-size: 18px;
-	font-family: 'Lato';
+	font-family: 'Rubik', sans-serif;
+	/*font-family: 'Bitter', sans-serif;*/
+	font-size: 20px;
 }
 
 a, a:visited {
-	color: rgb(243, 128, 148);
+	color: #f13a59;
 	text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-size: 32px;
-	margin: 50px 50px;
+p {
+	margin-bottom: 20px!important;
 }
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 50px 0px 50px 0px;
+	font-family: 'Old Standard TT', serif;
+	font-size: 48px;
+}
+
+/*hr {*/
+	/*border-color: rgb(243, 128, 148);*/
+	/*width: 70%;*/
+	/*display: block;*/
+	/*margin-right: 15%;*/
+	/*margin-left: 15%;*/
+	/*margin-top: 0px;*/
+	/*margin-bottom: 50px;*/
+/*}*/
 
 .row {
 	margin-top: 25px;
@@ -32,13 +48,17 @@ h1, h2, h3, h4, h5, h6 {
 	height:25px;
 }
 
+p {
+	margin-bottom: 15px;
+}
+
 /* --- images ------------- */
 #logo{
 	margin-top:15%;
 	text-decoration:none;
 }
 
-/* text logo, rename */
+/* text logo */
 .pyladies-logo {
 	height: 63px;
 	width: 133px;
@@ -50,12 +70,14 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
+/* Big pyladies script logo */
+
 #floating-logo {
 	position: absolute;
 	display: block;
 	width: 275px;
 	height: 125px;
-	top: 25%;
+	top: 30%;
 	left: 50%;
 	margin-left: -136px;
 }
@@ -87,7 +109,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #logotitle{
-	/*float:left;*/
 	font-family:'Josefin Sans', Helvetica, sans-serif;
 	font-weight: bold;
 	font-size:305%;
@@ -106,6 +127,11 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 0px 15px 0px 15px;
 }
 
+.pygotham {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
 /* --- navbar ------------- */
 nav.navbar {
     background-color: #2B2D42;
@@ -120,9 +146,42 @@ h1,h2,h3,h4 {
 	font-size:36px;
 }
 
+.navbar a {
+	font-size: 16px;
+}
+
 .section {
 	padding-top:25px;
 	padding-bottom:25px;
+}
+
+.row {
+	min-height: 500px;
+	padding-bottom: 50px;
+}
+
+/* hr lines */
+
+.hr-squiggle {
+	width: auto;
+	height: 25px;
+	margin-top: -35px;
+	margin-bottom: 25px;
+}
+
+.thick-line {
+	display: block;
+	color: black;
+	border-width: 5px;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.pink {
+	background-color: pink;
+	border-top: 5px solid #ffdeb4;
+	border-bottom: 5px solid #ffdeb4;
 }
 
 .skyline {
@@ -133,7 +192,7 @@ h1,h2,h3,h4 {
 
 @media (min-width: 750px) {
 	.skyline {
-		height: 550px;
+		height: 600px;
 	}
 }
 
@@ -162,4 +221,24 @@ h1,h2,h3,h4 {
   background-color: #f13a59;
   color: white;
   text-align: center;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #07244f;
+}
+
+.small-geek {
+	background-image: url('./images/pylady_geek.png');
+	background-size: contain;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@media (min-width: 400px) {
+	.small-geek {
+		display: none;
+	}
 }
