@@ -7,8 +7,8 @@
 }
 
 body{
-	background-color:#ffffff;
-	color:#333;
+	background-color: #fff;
+	color: #333;
 	font-family: 'Rubik', sans-serif;
 	font-size: 20px;
 }
@@ -276,7 +276,7 @@ span.fa {
   left: 0;
   bottom: 0;
   width: 100%;
-  color: white;
+  color: #fff;
   text-align: center;
 	font-size: 14px;
 	padding-top: 15px;
@@ -285,7 +285,7 @@ span.fa {
 }
 
 .footer a .fa {
-	color: white;
+	color: #fff;
 	font-size: 22px;
 }
 
