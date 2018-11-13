@@ -11,9 +11,10 @@
         <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400i|Rubik" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Anton|Signika:300" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
             <a class="navbar-brand" href="#pyladies">
                 <div class="med-geek"></div>
             </a>
@@ -26,7 +27,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#events">Events</a>
                     </li>
-
+                    <li class="nav-item">
+                        <a class="nav-link" href="#organizers">Organizers</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
                     </li>
@@ -38,6 +41,7 @@
         </nav>
         <img src="images/logo.png" id="floating-logo">
         <div class="skyline"></div>
+        <span class="doc-searls">Doc Searls via Flickr Creative Commons</span>
         <div class="container-fluid">
             <div class="row" id="pyladies">
                 <h1 class="col-sm-12 text-center">NYC PyLadies</h1>
@@ -52,8 +56,11 @@
                     </p>
                     <p>
                         We host monthly <a href="https://www.meetup.com/NYC-PyLadies/events/256036522/" target="_blank">events</a>,
-                        talks, and study groups where you can meet other Python programmers and
+                        talks, and study groups where you can meet other pythonistas and
                         learn more about programming, data science, web development, and more.
+                    </p>
+                    <p>
+                        All skill levels welcome!
                     </p>
                 </div>
             </div>
@@ -64,8 +71,7 @@
                 <div class="col-sm-12 col-md-10 offset-md-1  text-center">
                     <p>
                         Join our <a href="https://www.meetup.com/NYC-PyLadies/events/256036522/" target="_blank">Meetup group</a> to
-                        hear about our free events in the NYC metro area. All skill levels are
-                        welcome!
+                        hear about our free events in the NYC metro area.
                     </p>
                     <p>
                         Interested in hosting us, giving a talk, or leading a workshop?
@@ -73,10 +79,81 @@
                     </p>
                 </div>
             </div>
-            <div class="row" id="about">
-                <div class="col-sm-12 col-md-10 offset-md-1 section text-center" id="about">
-                    <h4>About Us</h4>
+            <div class="row" id="organizers">
+                <div class="col-sm-12 col-md-10 offset-md-1 section text-center" id="organizers">
+                    <h4>Organizers</h4>
                     <img src="./images/line.svg" class="hr-squiggle">
+                    <div class="bio-container">
+                        <div class="organizer-container"><img src="./images/bios/reshama_photo.jpg" class="organizer" /></div>
+                        <div class="bio">
+                            <p class="name">Reshama Shaikh</p>
+                            <p>
+                                Reshama Shaikh is a freelance data scientist/statistician in New York City.
+                                She worked for over 10 years as a biostatistician in the pharmaceutical industry.
+                                She is an organizer of the meetup groups NYC Women in Machine Learning & Data Science
+                                and PyLadies. She received her M.S. in statistics from Rutgers University and her
+                                M.B.A. from NYU Stern School of Business.
+                            </p>
+                            <p class="social-buttons">
+                                <a href="https://twitter.com/reshamas" target="_blank"><span class="fa fa-twitter">&nbsp;</span></a>
+                                <a href="https://www.linkedin.com/in/reshamas/" target="_blank"><span class="fa fa-linkedin">&nbsp;</span></a>
+                                <a href="https://reshamas.github.io" target="_blank"><span class="fa fa-desktop">&nbsp;</span></a>
+                                <a href="https://github.com/reshamas" target="_blank"><span class="fa fa-github">&nbsp;</span></a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bio-container">
+                        <div class="organizer-container">
+                            <img src="./images/bios/antonia_photo.jpg" class="organizer" />
+                        </div>
+                        <div class="bio">
+                            <p class="name">Antonia Blair</p>
+                            <p>
+                                Antonia Blair is a Full Stack software developer based in Brooklyn. Before learning to program,
+                                she worked as a writer, illustrator, and art book editor. She is particularly
+                                interested in the intersection of art and technology.
+                            </p>
+                            <p class="social-buttons">
+                                <a href="https://twitter.com/AntoniaBlairArt" target="_blank"><span class="fa fa-twitter">&nbsp;</span></a>
+                                <a href="https://www.linkedin.com/in/antonia-blair-31767a32" target="_blank"><span class="fa fa-linkedin">&nbsp;</span></a>
+                                <a href="http://www.antoniablair.com" target="_blank"><span class="fa fa-desktop">&nbsp;</span></a>
+                                <a href="https://github.com/antoniablair" target="_blank"><span class="fa fa-github">&nbsp;</span></a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bio-container">
+                        <div class="organizer-container">
+                            <img src="./images/bios/melissa_photo.jpg" class="organizer" />
+                        </div>
+                        <div class="bio">
+                            <p class="name">Melissa Ferrari</p>
+                            <p class="social-buttons">
+                                <a href="https://twitter.com/Ferrari3Melissa" target="_blank"><span class="fa fa-twitter">&nbsp;</span></a>
+                                <a href="https://www.linkedin.com/in/melissa-ferrari/" target="_blank"><span class="fa fa-linkedin">&nbsp;</span></a>
+                                <a href="https://github.com/mferrari3" target="_blank"><span class="fa fa-github">&nbsp;</span></a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bio-container">
+                        <div class="organizer-container">
+                            <img src="./images/bios/yisselda_photo.jpeg" class="organizer" />
+                        </div>
+                        <div class="bio">
+                            <p class="name">Yisselda Rhoc</p>
+                            <p class="social-buttons">
+                                <a href="https://twitter.com/UprootedAmber" target="_blank"><span class="fa fa-twitter">&nbsp;</span></a>
+                                <a href="https://www.linkedin.com/in/yisseldarhoc/" target="_blank"><span class="fa fa-linkedin">&nbsp;</span></a>
+                                <a href="https://github.com/yrhoc" target="_blank"><span class="fa fa-github">&nbsp;</span></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pink" id="about">
+                <div class="col-sm-12 col-md-10 offset-md-1 section text-center" id="about">
+                    <h4>About PyLadies</h4>
+                    <img src="./images/line.svg" class="hr-squiggle">
+
                     <p>
                         PyLadies is an international mentorship group with a focus on helping more women become active
                         participants and leaders in the Python open-source community.
@@ -87,35 +164,43 @@
                         gatherings.
                     </p>
                     <p>
-                        To learn more, visit the <a href="https://www.pyladies.com/">PyLadies website</a>.
+                        To learn more, visit the <a href="https://www.pyladies.com/" target="_blank">PyLadies website</a>.
                     </p>
                 </div>
             </div>
-            <div class="row pink">
+            <div class="row">
                 <div class="col-sm-12 section text-center" id="contact">
                     <h4>Connect</h4>
                     <img src="./images/line.svg" class="hr-squiggle">
                     <p>
-                        Follow us on <a href="https://twitter.com/NYCPyLadies">Twitter</a>
-                        or join our <a href="https://www.meetup.com/NYC-PyLadies/events/256036522/" target="_blank">Meetup group</a> to get our announcements and find out about
+                        Follow us on <a href="https://twitter.com/NYCPyLadies" target="_blank">Twitter</a>
+                        or join our <a href="https://www.meetup.com/NYC-PyLadies/events/256036522/" target="_blank">
+                        Meetup group</a> to get announcements and find out about
                         upcoming events.
+                    </p>
+                    <p>
+                        To connect with other PyLadies members through Slack, join
+                        <a href="http://slackin.pyladies.com" target="_blank">slackin.pyladies.com</a>
+                        and sign up for the <code>nyc</code> channel
                     </p>
                     <p>
                         If you would like to give a tech talk, demo, or workshop, contact us at <a href="mailto:nyc@pyladies.com">nyc@pyladies.com</a>.
                     </p>
                     <p>
-                        Interested in hosting an event at your workplace? Fill out our <a href="https://docs.google.com/forms/d/1EMD1fSACPl9LixfSosqKmBj1vhTMQ51AWrSVGxOXdDc/edit?usp=drive_web">
-                        Google form </a>and someone from NYC PyLadies will
-                        reach out.
-                    </p>
-                    <p>
-                        We look forward to speaking with you!
+                        Is your company interested in hosting an event? Fill out our
+                        <a href="https://docs.google.com/forms/d/1EMD1fSACPl9LixfSosqKmBj1vhTMQ51AWrSVGxOXdDc/edit?usp=drive_web">
+                        Google form</a> and we will be in touch!
                     </p>
                 </div>
             </div>
         </div>
         <div class="footer">
-            ✨ NYC PyLadies 2018 ✨
+            <p>
+                <a href="https://twitter.com/NYCPyLadies" target="_blank"><span class="fa fa-twitter">&nbsp;</span></a>
+                <a href="https://github.com/NYCpyladies" target="_blank"><span class="fa fa-github">&nbsp;</span></a>
+                <a href="http://slackin.pyladies.com" target="_blank"><span class="fa fa-slack">&nbsp;</span></a>
+                <span class="footer-title">✨ NYC PyLadies 2018</span>
+            </p>
         </div>
     </body>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

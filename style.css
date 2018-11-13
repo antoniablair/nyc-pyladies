@@ -10,7 +10,6 @@ body{
 	background-color:#ffffff;
 	color:#333;
 	font-family: 'Rubik', sans-serif;
-	/*font-family: 'Bitter', sans-serif;*/
 	font-size: 20px;
 }
 
@@ -19,25 +18,11 @@ a, a:visited {
 	text-decoration: none;
 }
 
-p {
-	margin-bottom: 20px!important;
-}
-
 h1, h2, h3, h4, h5, h6 {
 	margin: 50px 0px 50px 0px;
 	font-family: 'Old Standard TT', serif;
 	font-size: 48px;
 }
-
-/*hr {*/
-	/*border-color: rgb(243, 128, 148);*/
-	/*width: 70%;*/
-	/*display: block;*/
-	/*margin-right: 15%;*/
-	/*margin-left: 15%;*/
-	/*margin-top: 0px;*/
-	/*margin-bottom: 50px;*/
-/*}*/
 
 .row {
 	margin-top: 25px;
@@ -77,7 +62,7 @@ p {
 	display: block;
 	width: 275px;
 	height: 125px;
-	top: 30%;
+	top: 20%;
 	left: 50%;
 	margin-left: -136px;
 }
@@ -125,6 +110,13 @@ p {
 	max-width: 300px;
 	margin-top: -15px;
 	padding: 0px 15px 0px 15px;
+	margin-bottom: 50px;
+}
+
+@media (min-width: 500px) {
+	.geek  {
+		margin-bottom: 15px;
+	}
 }
 
 .pygotham {
@@ -138,8 +130,16 @@ margin-left: auto;
 }
 
 /* --- navbar ------------- */
+
+.navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
 nav.navbar {
-    background-color: #2B2D42;
+	background-color: #2B2D42;
 	color: #8D99AE;
 }
 
@@ -195,6 +195,12 @@ h1,h2,h3,h4 {
 	background-size:cover;
 }
 
+.doc-searls {
+	font-size: 12px;
+	margin-left: 5px;
+	display: block;
+}
+
 @media (min-width: 750px) {
 	.skyline {
 		height: 600px;
@@ -207,14 +213,62 @@ h1,h2,h3,h4 {
 	}
 }
 
-#upcomingMeetupsList ul li {
-	margin-bottom: 20px;
+/* --- bios ------------- */
+.bio-container {
+	display: flex;
+	align-content: flex-start;
+	flex-direction: column;
+	margin-bottom: 75px;
+	flex-wrap: wrap;
 }
 
-.meetup_group_icon {
-	float:left;
-	margin-right: 20px;
+.organizer-container {
+	margin-bottom: 25px;
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
 }
+
+@media (min-width: 750px) {
+	.organizer-container {
+		width: 20%;
+	}
+}
+
+.organizer {
+	height: auto;
+	flex-grow:0;
+	flex-shrink:0;
+	max-height: 400px;
+	align-self: auto;
+	justify-self: initial;
+	width: 100%;
+}
+
+@media (min-width: 750px) {
+	.bio-container {
+		flex-direction: row;
+	}
+}
+
+.bio .name {
+	font-weight: bold;
+	font-size: 24px;
+	font-family: 'Bitter', sans-serif;
+}
+
+.bio {
+	width: 75%;
+	max-width: 100%;
+	text-align: left;
+}
+
+span.fa {
+	font-size: 24px;
+}
+
 
 /* --- footer ------------- */
 .footer {
@@ -222,14 +276,21 @@ h1,h2,h3,h4 {
   left: 0;
   bottom: 0;
   width: 100%;
-  padding: 10px 10px 10px 10px;
-  background-color: #f13a59;
   color: white;
   text-align: center;
 	font-size: 14px;
 	padding-top: 15px;
-	padding-bottom: 15px;
-	background-color: #07244f;
+	background-color: #0e0c4f;
+	padding-right: 15px;
+}
+
+.footer a .fa {
+	color: white;
+	font-size: 22px;
+}
+
+.footer .footer-title {
+	vertical-align: 2px;
 }
 
 .small-geek {
