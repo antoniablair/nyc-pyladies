@@ -292,12 +292,6 @@ span.fa {
 }
 
 /* --- resources ----------- */
-
-/* .resource-link {
-	text-transform: none;
-	text-decoration: none;
-} */
-
 .resource-container {
 	display: flex;
 	justify-content: space-around;
@@ -338,16 +332,20 @@ span.fa {
 
 /* --- footer ------------- */
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: #fff;
-  text-align: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: #fff;
+	text-align: center;
 	font-size: 14px;
 	padding-top: 15px;
 	background-color: #0e0c4f;
-	padding-right: 15px;
+	padding-right: 16px;
+}
+
+.footer p {
+	margin-bottom: 15px;
 }
 
 .footer a .fa {
