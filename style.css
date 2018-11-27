@@ -230,7 +230,7 @@ h1,h2,h3,h4 {
 	margin-left: auto;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1250px) {
 	.organizer-container {
 		width: 40%;
 	}
@@ -247,13 +247,17 @@ h1,h2,h3,h4 {
 }
 
 .organizer.landscape {
-	max-width: 400px;
+	max-width: 325px;
 	padding-top: 10px;
 }
 
 @media (min-width: 750px) {
 	.bio-container {
 		flex-direction: row;
+	}
+
+	.organizer.landscape {
+		max-width: 425px;
 	}
 }
 
@@ -264,7 +268,7 @@ h1,h2,h3,h4 {
 	margin-top: 25px;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1250px) {
 	.bio {
 		width: 55%;
 		text-align: left;
