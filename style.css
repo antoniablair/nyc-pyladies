@@ -291,6 +291,49 @@ span.fa {
 	font-size: 24px;
 }
 
+/* --- resources ----------- */
+
+/* .resource-link {
+	text-transform: none;
+	text-decoration: none;
+} */
+
+.resource-container {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	flex-wrap: row;
+	width: 100%;
+}
+
+.resource-link p, .resource-link:hover {
+	color: rgba(0,0,0,.7);
+	text-transform: none;
+	text-decoration: none;
+}
+
+.resource {
+	margin-bottom: 30px;
+	background: #fafafa;
+	border-radius: 10px;
+    padding: 25px;
+    height: 320px;
+	width: 320px;
+	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.1), 0 4px 20px 0 rgba(0,0,0,0.1);
+	display: block;
+	text-align: left;
+	font-size: 18px;
+}
+
+.resource .p {
+	margin-bottom: 0px;
+}
+
+.resource-link .resource-title {
+	font-size: 22px;
+	color: black;
+}
+
 
 /* --- footer ------------- */
 .footer {
