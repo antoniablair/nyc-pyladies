@@ -121,12 +121,19 @@ p {
 }
 
 .pygotham {
-	width: 519px;
-	height: 443px;
+	width: 259px;
+	height: 221px;
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
 	margin-bottom: 50px;
+}
+
+@media (min-width: 550px) {
+	.geek {
+		width: 519px;
+		height: 443px;
+	}
 }
 
 /* --- navbar ------------- */
