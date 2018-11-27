@@ -107,9 +107,11 @@ p {
 	display: block;
 	width: 100%;
 	max-width: 300px;
-	margin-top: -15px;
 	padding: 0px 15px 0px 15px;
+	margin-top: -15px;
 	margin-bottom: 50px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 @media (min-width: 500px) {
