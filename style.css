@@ -61,9 +61,19 @@ p {
 	display: block;
 	width: 275px;
 	height: 125px;
-	top: 25%;
+	top: 15%;
 	left: 50%;
 	margin-left: -136px;
+}
+
+@media (min-width: 300px) {
+	#floating-logo {
+		width: 275px;
+		height: 125px;
+		top: 25%;
+		left: 50%;
+		margin-left: -136px;
+	}
 }
 
 @media (min-width: 500px) {
