@@ -61,19 +61,9 @@ p {
 	display: block;
 	width: 275px;
 	height: 125px;
-	top: 15%;
+	top: 25%;
 	left: 50%;
 	margin-left: -136px;
-}
-
-@media (min-width: 350px) {
-	#floating-logo {
-		width: 275px;
-		height: 125px;
-		top: 25%;
-		left: 50%;
-		margin-left: -136px;
-	}
 }
 
 @media (min-width: 500px) {
@@ -95,6 +85,20 @@ p {
 		margin-left: -250px;
 	}
 }
+
+
+/* @media only screen and (min-width: 420px) {
+	#floating-logo {
+		position: absolute;
+		display: block;
+		width: 400px;
+		height: 175px;
+		top: 15%;
+		left: 45%;
+		margin-left: -136px;
+	}
+} */
+
 
 #logoimage{
 	width:27px;
