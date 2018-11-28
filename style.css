@@ -277,6 +277,10 @@ h1,h2,h3,h4 {
 	margin-top: 25px;
 }
 
+.bio {
+	width: 100%;
+}
+
 @media (min-width: 1250px) {
 	.bio {
 		width: 55%;
@@ -296,7 +300,7 @@ span.fa {
 	display: flex;
 	justify-content: space-around;
 	flex-direction: row;
-	flex-wrap: row;
+	flex-wrap: wrap;
 	width: 100%;
 	margin-top: 35px;
 }
