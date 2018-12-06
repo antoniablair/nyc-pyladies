@@ -55,7 +55,6 @@ p {
 	}
 }
 
-/* Big pyladies script logo */
 #floating-logo {
 	position: absolute;
 	display: block;
@@ -85,20 +84,6 @@ p {
 		margin-left: -250px;
 	}
 }
-
-
-/* @media only screen and (min-width: 420px) {
-	#floating-logo {
-		position: absolute;
-		display: block;
-		width: 400px;
-		height: 175px;
-		top: 15%;
-		left: 45%;
-		margin-left: -136px;
-	}
-} */
-
 
 #logoimage{
 	width:27px;
@@ -185,8 +170,6 @@ h1,h2,h3,h4 {
 	min-height: 500px;
 	padding-bottom: 50px;
 }
-
-/* hr lines */
 
 .hr-squiggle {
 	width: 100%;
